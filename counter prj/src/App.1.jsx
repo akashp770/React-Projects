@@ -1,15 +1,10 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 
-function App() {
+export function App() {
   // const [count, setCount] = useState(0);
-
   let [counter, setCounter] = useState(5);
 
   // let counter = 5;
-
   const addValue = () => {
     console.log("Clicked", counter);
 
@@ -23,15 +18,7 @@ function App() {
     // setCounter(counter + 1);
     // setCounter(counter + 1);
     // setCounter(counter + 1);
-
-    //----->>>  then do thiss <<<-------
-
-    // setCounter((prevCounter) => prevCounter + 1);
-    // setCounter((prevCounter) => prevCounter + 1);
-    // setCounter((prevCounter) => prevCounter + 1);
-    // setCounter((prevCounter) => prevCounter + 1);
-    //  OUTPUT is __ + 4    if 5 then 5 + 4 = 9
-
+    //-----  then do thiss
     // console.log("Value added", Math.random());
   };
 
@@ -51,5 +38,3 @@ function App() {
     </>
   );
 }
-
-export default App;
